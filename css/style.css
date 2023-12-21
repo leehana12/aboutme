@@ -33,3 +33,44 @@ header>p{
 	left: 100px;
 	font-size: 70px;			
 }
+
+section{
+	font-family: ;
+	font-family: Noto Sans KR;			
+}
+		
+section>.container1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	height: 350px;
+}
+section>.container1>.item1{
+	font-family: Noto Sans KR;
+}
+		
+section>.container1>.item1>img{
+	width: 250px;
+	height: 277px;
+	object-fit: cover;
+}
+				
+section>.container1>.item1>h2{
+	font-size: 25px;
+	line-height: 40px;
+}
+section>.container1>.item1>h3{
+	font-size: 15px;
+}
+section>.container1>.item1>h3>span{
+	font-size: 30px;
+	line-height: 30px;			
+	color: #d4b2ed;
+}
+section>.container1>.item1>p{
+	margin-top: 10px;
+	font-size: 17px;
+	line-height: 30px;
+}
