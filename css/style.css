@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@100;900&display=swap');
 #wrap{
 	width: 1000px;
-	height: 2000px;
+	height: 2500px;
 	background-color: #f5f0dd;
 	margin: 0 auto;
 }
@@ -138,4 +138,56 @@ section>.container3>.item3>.icon>.iconbox>img{
 	height: 50px;
 	margin-bottom: 10px;
 	object-fit: cover;
+}
+
+section>.strengths>h4{
+	height: 60px;
+	padding-left: 130px;
+	color: #fff;
+	font-size: 35px;
+	line-height: 50px;
+	background-color: #202020;
+}
+
+section>.strengths>.box>p{	
+	height: 80px;
+	margin-top: 30px;
+	padding-left: 130px;
+	font-size: 17px;
+	line-height: 30px;
+}
+section>.strengths>.box:nth-child(2)>p{
+	height: 50px;
+}
+section>.strengths>.box>p>span{
+	font-weight: 900;
+}
+
+section>.strengths>.box>p>.purple{
+	color: #d4b2ed;
+}
+section>.strengths>.box>figure{}
+section>.strengths>.box>figure>div{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 700px;
+	overflow: scroll;
+}
+section>.strengths>.box>figure>figcaption{
+	text-align: center;
+}
+
+section>.strengths>.box>.container>ul{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	margin: 30px auto;
+    width: 700px;
+    	
+}
+section>.strengths>.box>ul>li{}
+section>.strengths>.box>ul>li>ul{}
+section>.strengths>.box>ul>li>ul>li{
+	display: block;
+	margin: 0 auto;
 }
